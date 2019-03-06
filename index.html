@@ -38,6 +38,34 @@
         max-height: 100vh;
         margin: auto;
 }
+	
+.arrow_box {
+	position: relative;
+	background: linear-gradient(90deg, #ddd, #eee);
+	border: 2px solid #eee;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.arrow_box:after {
+	border-color: rgba(0, 123, 255, 0);
+	border-top-color: #eee;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(0, 123, 255, 0);
+	border-top-color: #eee;
+	border-width: 33px;
+	margin-left: -33px;
+}
 
 </style>
 	
@@ -100,6 +128,23 @@
   <div class="imgbox">
     <img class="center-fit" src="https://raw.githubusercontent.com/herbaltradisional/herbaltradisional.github.io/master/img/img3.jpg" alt="solusi">
   </div>
+	
+  <div class="arrow_box" style="padding: 10px;">
+    <p></p>
+    <h5 class="text-center" style="color:white;">
+        SOLUSI RAMBUT UBAN DAN RONTOK ANDA
+    </h5>
+    <p class="text-center" style="color:white;">
+	    Minyak kayu Ulin merupakan produk perawatan berupa minyak rambut. <br/>
+	    <br/>
+ Terbuat dari ramuan herbal minyak kayu Ulin asli kalimantan. <br/>
+ Oleh penduduk asli Kalimantan yaitu suku dayak, ekstrak kayu Ulin sendiri sudah digunakan sejak dahulu sebagai obat alami penghitam rambut beruban. 
+Selain itu kandungan minyak kayu Ulin juga dapat merangsang pertumbuhan rambut, sehingga dapat mengatasi kerontokan dan kebotakan pada rambut yang rusak. 
+    </p>
+  </div>
+	<p></p>
+	<br/>
+	
 
 	<section class="grid" id="features">
 	  <div class="col-25 tab-50">
