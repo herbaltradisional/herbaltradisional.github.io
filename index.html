@@ -5,6 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ALUX - Framework</title>
   <link rel="stylesheet" href="alux.min.css">
+	
+.wave { 
+	position: relative;
+	background: linear-gradient(90deg, #f0027f, #f75489f);
+}
+	
+.wave:before {
+        content: "";
+        position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	background: url(https://raw.githubusercontent.com/herbaltradisional/herbaltradisional.github.io/master/img/wave.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+	
+	
 </head>
 <body>
 
@@ -45,7 +64,7 @@
 	</div>
 	<div class="clearfix"></div>
 
-  <div class="cover">
+  <div class="cover wave">
   	<section class="grid" id="cover">
       <div class="col-60 push-40">
         <h1>Minyak Kayu Balitung</h1>
